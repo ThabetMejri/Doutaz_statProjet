@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Doutaz_StatProjet">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3540737393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 3793109100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Amount HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 3607969333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Include VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Amount Include VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3540737393 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - NamedType 4109246739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can change only the last line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - NamedType MsgError</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Field 1414825673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Job Progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Field % Job Progress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Field 430242907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Overhead Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Field % Overhead Rate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Field 3703761530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Field Change - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3794436072 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutazJobProgress - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1542739089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other Fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutaz Other Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3794436072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutazJobProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 736052156 - Control 4129381658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Statistic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutaz Sales Order - Control Statistic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Action 1270575865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>Calculer statistique</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Action CalcStat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Control 2762407475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>End statistics of construction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control Erpx End statistics of construction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Control 1278864808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>Honorary Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control Erpx Honorary statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Control 1409893931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>Fees HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control FeesHT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Control 4057275556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>Hourly Fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control HourlyFees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1827821455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>% Desired Benefit </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Desired Benefit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3070912590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>% General Expenses Fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % General Expenses Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3537699395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Average Fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Average Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3631353781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Benefit Forecast</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Benefit Forecast - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1615944360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Desired Benefit HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Desired Benefit HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Fee Amount HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fee Amount HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1886622184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Fees HT at Disposal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT at Disposal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 4265920115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Fees HT Balance Available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT Balance Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3095746107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Fees HT Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 592399528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Hourly fees Balance at Disposal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hour fees Bal. Disposal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 733269058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Hourly Fees Available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hourly Fees Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3280305596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Hourly Fees Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hourly Fees Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3810144236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Erpx Last Progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Last Progress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Overheads And Desired Profit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Overheads Desired Profit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 4164245083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Risk and Chance HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Risk and Chance HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 4143633615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>FA Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx FA Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Fee Amount HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Fee Amount HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 759263298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Other Fees HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Other Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Overheads And Desired Profit HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Overheads Desired Profit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 3353313399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Total Amount HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Total Amount HT - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,34 @@
+{
+  "id": "11f3e886-142c-49ea-a2a6-cdababc6b4c8",
+  "name": "Doutaz_StatProjet",
+  "publisher": "Erpxperts SA",
+  "version": "21.180.0.6",
+  "brief": "Statistiques projet",
+  "description": "Statistiques projet",
+  "privacyStatement": "http://www.erpxperts.ch",
+  "EULA": "http://www.erpxperts.ch",
+  "help": "http://www.erpxperts.ch",
+  "url": "http://www.erpxperts.ch",
+  "logo": "./logo/ErpXperts.png",
+  "dependencies": [
+    {
+      "id": "fc0cf0fd-f77f-4d9a-af83-647a2b40945b",
+      "name": "Doutaz_Spec",
+      "publisher": "Erpxperts SA",
+      "version": "20.180.0.56"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "features": ["TranslationFile"],
+  "idRanges": [
+    {
+      "from": 50700,
+      "to": 50749
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Doutaz_StatProjet.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
