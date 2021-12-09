@@ -2,7 +2,7 @@
   "id": "11f3e886-142c-49ea-a2a6-cdababc6b4c8",
   "name": "Doutaz_StatProjet",
   "publisher": "Erpxperts SA",
-  "version": "21.180.0.6",
+  "version": "21.180.0.7",
   "brief": "Statistiques projet",
   "description": "Statistiques projet",
   "privacyStatement": "http://www.erpxperts.ch",
@@ -15,7 +15,7 @@
       "id": "fc0cf0fd-f77f-4d9a-af83-647a2b40945b",
       "name": "Doutaz_Spec",
       "publisher": "Erpxperts SA",
-      "version": "20.180.0.56"
+      "version": "20.180.0.71"
     }
   ],
   "screenshots": [],

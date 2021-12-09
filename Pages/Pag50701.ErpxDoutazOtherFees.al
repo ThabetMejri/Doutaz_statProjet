@@ -49,30 +49,10 @@ page 50701 "ErpxDoutaz Other Fees"
         salesHeader."Erpx Document Type"::"Advancement amendment");
         salesHeader.SetRange("No.", Rec."Document No.");
         if salesHeader.FindFirst() then begin
-            if (salesHeader."Erpx Document Type" = salesHeader."Erpx Document Type"::"Contract Hours") or (salesHeader."Erpx Document Type" = salesHeader."Erpx Document Type"::"Hours amendment") then begin
-                if salesHeader."Erpx FA Statistics" then begin
-                    DetailContrat.Reset();
-                    DetailContrat.SetRange("Document No.", salesHeader."No.");
-                    DetailContrat.SetRange("Document Type", salesHeader."Document Type");
-                    DetailContrat.CalcSums("Amount Invoiced");
-                    salesHeader."Erpx Total Amount HT" := DetailContrat."Amount Invoiced";
-                end
-                else begin
-                    salesHeader.CalcFields(Amount);
-                    salesHeader."Erpx Total Amount HT" := salesHeader.Amount;
-                end;
-            end
-            else begin
-                salesHeader.CalcFields(Amount);
-                salesHeader."Erpx Total Amount HT" := salesHeader.Amount;
-            end;
-            salesHeader.CalcFields("Erpx Other Fees");
-            salesHeader."Erpx Fee Amount HT" := salesHeader."Erpx Total Amount HT" - salesHeader."Erpx Other Fees";
             if job.Get(salesHeader."ErpX Job No.") then begin
-                job.CalcFields("Erpx % General Expenses Fees");
-                salesHeader."Erpx Overheads Desired Profit" := salesHeader."Erpx Fee Amount HT" * (job."Erpx % General Expenses Fees" + job."Erpx % Desired Benefit") / 100;
+                job.CalcSalesHeader(job."No.");
+                job.calcJob(job."No.");
             end;
-            salesHeader.Modify();
         end;
     end;
 }

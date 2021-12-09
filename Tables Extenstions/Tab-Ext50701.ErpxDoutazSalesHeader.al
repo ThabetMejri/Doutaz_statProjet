@@ -1,4 +1,4 @@
-tableextension 50701 ErpxDoutazSalesHeader extends "Sales Header"
+tableextension 50701 "ErpxDoutazSalesHeader" extends "Sales Header"
 {
     fields
     {
@@ -27,7 +27,25 @@ tableextension 50701 ErpxDoutazSalesHeader extends "Sales Header"
         field(50704; "Erpx Total Amount HT"; Decimal)
         {
             DataClassification = ToBeClassified;
-            Caption = 'Total Amount HT';            
+            Caption = 'Total Amount HT';
+        }
+        field(50709; "Erpx Desired Benefit HT"; Decimal)
+        {
+            Caption = 'Desired Benefit HT';
+            DataClassification = CustomerContent;
+        }
+        field(50710; "Erpx General Expenses Fees"; Decimal)
+        {
+            Caption = 'General Expenses Fees';
+            FieldClass = FlowField;
+            CalcFormula = lookup("Erpx Doutaz order Progress"."Amount HT" where("Document Type" = field("Document Type"), "No." = field("No."), Change = field("Erpx Last change")));
+            Editable = false;
+        }
+        field(50711; "Erpx Last Change"; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = max("Erpx Doutaz order Progress".Change where("Document Type" = field("Document Type"), "No." = field("No.")));
+            Editable = false;
         }
     }
 }
