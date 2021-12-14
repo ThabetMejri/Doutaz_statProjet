@@ -36,6 +36,11 @@
           <target state="translated">N° projet</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field Job No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 764075456 - Field 2825780816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Change</source>
+          <target state="translated">Dernier changement</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field Last Change - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3116099287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Progress</source>
           <target state="translated">Avancement commande</target>
@@ -75,6 +80,11 @@
           <source>No.</source>
           <target state="translated">N°</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3116099287 - Field 2113075530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Amount HT</source>
+          <target state="translated">Montant commande HT</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Order Amount HT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other fees</source>
@@ -251,10 +261,10 @@
           <target state="translated">Frais généraux</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx General Expenses Fees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 3810144236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Erpx Last Progress</source>
-          <target state="translated">Dernière progression</target>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Last Progress - Property Caption</note>
+        <trans-unit id="TableExtension 637976691 - Field 1763899733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Erpx Last Change</source>
+          <target state="translated">Dernier changement</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Last Change - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 637976691 - Field 759263298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other Fees HT</source>
