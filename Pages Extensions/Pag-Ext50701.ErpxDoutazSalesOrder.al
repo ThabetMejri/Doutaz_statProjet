@@ -24,6 +24,7 @@ pageextension 50701 "ErpxDoutaz Sales Order" extends "Sales Order"
             field("Erpx FA Statistics"; rec."Erpx FA Statistics")
             {
                 ApplicationArea = all;
+                Enabled = showDetailHours;
             }
         }
         addbefore("Invoice Details")
@@ -83,5 +84,19 @@ pageextension 50701 "ErpxDoutaz Sales Order" extends "Sales Order"
                 job.calcJob(job."No.");
             end;
         end;
+        showDetailHours := false;
+        if rec."Erpx Document Type" = rec."Erpx Document Type"::"Contract Hours" then
+            showDetailHours := true
+
     end;
+
+    trigger OnAfterGetRecord()
+    begin
+        showDetailHours := false;
+        if rec."Erpx Document Type" = rec."Erpx Document Type"::"Contract Hours" then
+            showDetailHours := true
+    end;
+
+    var
+        showDetailHours: Boolean;
 }

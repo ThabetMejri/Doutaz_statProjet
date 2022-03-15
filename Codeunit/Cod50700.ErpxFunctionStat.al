@@ -1,4 +1,4 @@
-codeunit 50700 ErpxFunctionStat
+codeunit 50700 "ErpxFunctionStat"
 {
     EventSubscriberInstance = StaticAutomatic;
     [EventSubscriber(ObjectType::Table, Database::"Sales Header", 'OnAfterValidateEvent', 'Erpx Document Type', True, True)]
@@ -217,6 +217,30 @@ codeunit 50700 ErpxFunctionStat
             Rec."Erpx Benefit Forecast" := Rec."Erpx Desired Benefit HT" + Rec."Erpx Risk and Chance HT";
         end;
 
+    end;
+
+    procedure UpdateRateHoursEmplyee(var RatehoursHeader: Record "Erpx Doutaz Rate hours Header")
+    begin
+        RatehoursHeader.CalcFields("Total annual social charges");
+        RatehoursHeader.Validate(RatehoursHeader."Total annual employer charges", RatehoursHeader."Total annual social charges" + RatehoursHeader."Salary Amount Annually");
+        RatehoursHeader.Modify();
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Erpx Doutaz Rate hours Line", 'OnAfterModifyEvent', '', True, True)]
+    local procedure ErpxOnAfterModifyEventRateHoursLine(RunTrigger: Boolean; var Rec: Record "Erpx Doutaz Rate hours Line"; var xRec: Record "Erpx Doutaz Rate hours Line")
+    var
+        FunctionStat: Codeunit "ErpxFunctionStat";
+        RatehoursHeader: Record "Erpx Doutaz Rate hours Header";
+    begin
+        RatehoursHeader.Get(rec."Employee No.");
+        FunctionStat.UpdateRateHoursEmplyee(RatehoursHeader);
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Erpx Doutaz Rate hours Header", 'OnAfterInsertEvent', '', True, True)]
+    local procedure ErpxOnAfterModifyEventRateHoursHeader(var Rec: Record "Erpx Doutaz Rate hours Header")
+    begin
+        UpdateRateHoursEmplyee(Rec);
+        rec.Modify();
     end;
 
 }

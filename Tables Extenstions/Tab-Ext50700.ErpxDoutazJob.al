@@ -79,7 +79,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         }
         field(50714; "Erpx Overheads Desired Profit"; Decimal)
         {
-            Caption = 'Overheads And Desired Profit';
+            Caption = 'Overheads And Desired Profit HT';
             CalcFormula = sum("Sales Header"."Erpx Overheads Desired Profit" where("ErpX Job No." = field("No.")));
             FieldClass = FlowField;
             Editable = false;
@@ -92,7 +92,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         //job."Erpx Fee Amount HT" := 0;
         salesHeader.Reset();
         salesHeader.SetRange("ErpX Job No.", job."No.");
-        salesHeader.SetRange("Erpx FA Statistics", true);
+        //salesHeader.SetRange("Erpx FA Statistics", true);
         salesHeader.SetFilter("Erpx Document Type", '%1|%2|%3|%4|%5|%6', salesHeader."Erpx Document Type"::"Contract Hours", salesHeader."Erpx Document Type"::"Contract Payment plan",
                             salesHeader."Erpx Document Type"::"Hours amendment", salesHeader."Erpx Document Type"::"Payment plan amendment", salesHeader."Erpx Document Type"::"Progress contract",
                             salesHeader."Erpx Document Type"::"Advancement amendment");

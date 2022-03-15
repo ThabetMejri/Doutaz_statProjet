@@ -6,6 +6,26 @@
     </header>
     <body>
       <group id="body" datatype="resx">
+        <trans-unit id="Table 3468372040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Calc. Rate hours</source>
+          <target state="translated">Calcul taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3468372040 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3468372040 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Désignation</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3468372040 - Field 2006937558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="translated">Taux</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Rate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 764075456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Progress</source>
           <target state="translated">Avancement projet</target>
@@ -86,6 +106,161 @@
           <target state="translated">Montant commande HT</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Order Amount HT - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 459974204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Rate hours Header</source>
+          <target state="translated">Taux horaire par ressource</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 1384264140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Annual number of hours</source>
+          <target state="translated">Nombre d'heure annuel</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Annual number of hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <target state="translated">N° employée</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 1147530431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment %</source>
+          <target state="translated">Taux d'activité</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Employment % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 2981864456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name</source>
+          <target state="translated">Nom complet</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Full Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 3614115762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General costs</source>
+          <target state="translated">Frais généraux</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field General costs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 234331231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum LA</source>
+          <target state="translated">Maximum LA</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Maximum LA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 14754743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nb of Salary by year</source>
+          <target state="translated">Nombre de salaire par année</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Nb of Salary by year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 3970134301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net hourly rate with FG</source>
+          <target state="translated">Taux horaire net avec FG</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Net hourly rate with FG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 2773852271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net hourly rate without FG</source>
+          <target state="translated">Taux horaire net sans FG</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Net hourly rate without FG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 3753797144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salary Amount Annually</source>
+          <target state="translated">Salaire annuel brut</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 4173648540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salary Amount Annually LAA</source>
+          <target state="translated">Salaire annuel brut LAA</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually LAA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 639626152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salary Amount Annually LAA/C</source>
+          <target state="translated">Salaire annuel brut LAA compl.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually LAA/C - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 939777447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salary Amount Monthly</source>
+          <target state="translated">Salaire annuel brut</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Monthly - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 556098921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total annual employer charges</source>
+          <target state="translated">Total annuel charges employeur</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Total annual employer charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 459974204 - Field 4166702707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total annual social charges</source>
+          <target state="translated">Total annuel charges sociales</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Total annual social charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Rate hours</source>
+          <target state="translated">Doutaz Taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target state="translated">Montant</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 3278951291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Amount</source>
+          <target state="translated">Montant de base</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Base Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Désignation</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <target state="translated">N° employée</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 2981864456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name</source>
+          <target state="translated">Nom complet</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Full Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 164988355 - Field 2006937558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="translated">Taux</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Rate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz TimeSheet Entries</source>
+          <target state="translated">Doutaz feuilles de temps </target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Date</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No</source>
+          <target state="translated">N° séquence</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <target state="translated">N° projet</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Quantité</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 2244940641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resouce Name</source>
+          <target state="translated">Nom ressouce</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resouce Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 518661146 - Field 3961767479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource No.</source>
+          <target state="translated">N° ressource</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resource No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3540737393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other fees</source>
           <target state="translated" state-qualifier="mt-suggestion">Autres frais</target>
@@ -121,10 +296,75 @@
           <target state="translated" state-qualifier="tm-suggestion">N° ligne</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 940484421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DoutazTimeSheetAPI</source>
+          <target state="translated">DoutazTimeSheetAPI</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 940484421 - Control 895206272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Date</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 940484421 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No</source>
+          <target state="translated">N° séquence</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 940484421 - Control 560950674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <target state="translated">N° projet</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control jobNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 940484421 - Control 3355113493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Quantité</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 940484421 - Control 464402589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource No.</source>
+          <target state="translated">N° ressource</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control resourceNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 932558947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Rate hours Line</source>
+          <target state="translated">Doutaz Taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx doutaz Rate hours Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz TimeSheet Entries</source>
+          <target state="translated">Doutaz feuilles de temps </target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Doutaz TimeSheet Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3032868852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Rate Hours</source>
+          <target state="translated">Taux horaire par employée</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate Hours Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3032868852 - Control 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>lines</source>
+          <target state="translated">Lignes</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate Hours Card - Control Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 252162034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Rate hours</source>
+          <target state="translated">Taux horaire par employée</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate hours List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 252162034 - Action 3945118397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Rate Hourly</source>
+          <target state="translated">Calculer taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate hours List - Action CalculateRateHourly - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 120453160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Progress</source>
           <target state="translated">Avancement commande</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Order Progress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 161754790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Calc Rate Hours</source>
+          <target state="translated">Doutaz Barème calcul taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutaz Calc Rate Hours - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1542739089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other Fees</source>
@@ -135,6 +375,11 @@
           <source>Job Progress</source>
           <target state="translated">Avancement</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutazJobProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 512116759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doutaz Calcul Rate hourly</source>
+          <target state="translated">Calculer taux horaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Erpx Doutaz Calcul Rate hourly - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 736052156 - Control 4129381658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Statistic</source>
@@ -232,7 +477,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Last Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1336673499 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Overheads And Desired Profit</source>
+          <source>Overheads And Desired Profit HT</source>
           <target state="translated">Total frais généraux et bénéfice souhaité</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Overheads Desired Profit - Property Caption</note>
         </trans-unit>
@@ -280,6 +525,61 @@
           <source>Total Amount HT</source>
           <target state="translated">Total montant HT</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Total Amount HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 1660943166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AC</source>
+          <target state="translated">AC</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 3567861357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AC complementary</source>
+          <target state="translated">AC complémentaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AC Comp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 3588821598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AVS/AI/APG</source>
+          <target state="translated">AVS/AI/APG</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AVS/AI/APG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 2643242379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caisse AF</source>
+          <target state="translated">Caisse AF</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Caisse AF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 4091854813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Frais de gestion</source>
+          <target state="translated">Frais de gestion</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Frais de gestion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 3614115762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General costs</source>
+          <target state="translated">Frais généraux</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue General costs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 585437394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IJM</source>
+          <target state="translated">IJM</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue IJM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 999870104 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LAA</source>
+          <target state="translated">LAA</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LAA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 2785452151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LAA complementary</source>
+          <target state="translated">LAA complémentaire</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LAA Comp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 3274066112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LPP</source>
+          <target state="translated">LPP</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LPP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1721446973 - EnumValue 2408767110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nbre of Salary by year</source>
+          <target state="translated">Nbre de salaire par année</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Nbre of Salary by year - Property Caption</note>
         </trans-unit>
       </group>
     </body>
