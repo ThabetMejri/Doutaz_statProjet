@@ -65,6 +65,7 @@ pageextension 50701 "ErpxDoutaz Sales Order" extends "Sales Order"
             }
         }
     }
+ 
     trigger OnOpenPage()
     var
         salesHeader: Record "Sales Header";

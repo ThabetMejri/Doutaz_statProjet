@@ -1,584 +1,726 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="fr-CH" original="Doutaz_StatProjet" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1916.0" tool-company="Microsoft" />
-    </header>
+  <file datatype="xml" source-language="en-US" target-language="fr-CH" original="Doutaz_StatProjet">
     <body>
-      <group id="body" datatype="resx">
+      <group id="body">
         <trans-unit id="Table 3468372040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Calc. Rate hours</source>
           <target state="translated">Calcul taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3468372040 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3468372040 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="translated">Désignation</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3468372040 - Field 2006937558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rate</source>
           <target state="translated">Taux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Calc. Rate hours - Field Rate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Progress</source>
           <target state="translated">Avancement projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - NamedType 4109246739" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can change only the last line.</source>
           <target state="translated" state-qualifier="mt-suggestion">Vous ne pouvez modifier que la dernière ligne.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - NamedType MsgError</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Field 1414825673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>% Job Progress</source>
           <target state="translated">% avancement projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field % Job Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Field 430242907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>% Overhead Rate</source>
           <target state="translated">% Taux de frais généraux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field % Overhead Rate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Field 3703761530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change</source>
           <target state="translated" state-qualifier="mt-suggestion">Changement</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field Change - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job No.</source>
           <target state="translated">N° projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field Job No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 764075456 - Field 2825780816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last Change</source>
           <target state="translated">Dernier changement</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Job Progress - Field Last Change - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Progress</source>
           <target state="translated">Avancement commande</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 1414825673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>% Job Progress</source>
           <target state="translated">% avancement projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field % Job Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 430242907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>% Overhead Rate</source>
           <target state="translated">% Taux de frais généraux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field % Overhead Rate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 3793109100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount HT</source>
           <target state="translated" state-qualifier="mt-suggestion">Montant HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Amount HT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 3703761530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change</source>
           <target state="translated" state-qualifier="mt-suggestion">Changement</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Change - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <target state="translated" state-qualifier="mt-suggestion">Document Type</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Document Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job No.</source>
           <target state="translated">N° projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Job No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <target state="translated">N°</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3116099287 - Field 2113075530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Amount HT</source>
           <target state="translated">Montant commande HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Order Progress - Field Order Amount HT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Rate hours Header</source>
           <target state="translated">Taux horaire par ressource</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 1384264140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Annual number of hours</source>
           <target state="translated">Nombre d'heure annuel</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Annual number of hours - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee No.</source>
           <target state="translated">N° employée</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Employee No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 1147530431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employment %</source>
           <target state="translated">Taux d'activité</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Employment % - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 2981864456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Full Name</source>
           <target state="translated">Nom complet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Full Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 3614115762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General costs</source>
           <target state="translated">Frais généraux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field General costs - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 234331231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maximum LA</source>
           <target state="translated">Maximum LA</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Maximum LA - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 14754743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nb of Salary by year</source>
           <target state="translated">Nombre de salaire par année</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Nb of Salary by year - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 3970134301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net hourly rate with FG</source>
           <target state="translated">Taux horaire net avec FG</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Net hourly rate with FG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 2773852271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net hourly rate without FG</source>
           <target state="translated">Taux horaire net sans FG</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Net hourly rate without FG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 3753797144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salary Amount Annually</source>
           <target state="translated">Salaire annuel brut</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 4173648540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salary Amount Annually LAA</source>
           <target state="translated">Salaire annuel brut LAA</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually LAA - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 639626152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salary Amount Annually LAA/C</source>
           <target state="translated">Salaire annuel brut LAA compl.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Annually LAA/C - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 939777447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salary Amount Monthly</source>
           <target state="translated">Salaire annuel brut</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Salary Amount Monthly - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 556098921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total annual employer charges</source>
           <target state="translated">Total annuel charges employeur</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Total annual employer charges - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 459974204 - Field 4166702707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total annual social charges</source>
           <target state="translated">Total annuel charges sociales</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Header - Field Total annual social charges - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Rate hours</source>
           <target state="translated">Doutaz Taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <target state="translated">Montant</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 3278951291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base Amount</source>
           <target state="translated">Montant de base</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Base Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="translated">Désignation</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee No.</source>
           <target state="translated">N° employée</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Employee No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 2981864456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Full Name</source>
           <target state="translated">Nom complet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Full Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 164988355 - Field 2006937558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rate</source>
           <target state="translated">Taux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Rate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz TimeSheet Entries</source>
           <target state="translated">Doutaz feuilles de temps </target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <target state="translated">Date</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No</source>
           <target state="translated">N° séquence</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Entry No - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job No.</source>
           <target state="translated">N° projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Job No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity</source>
           <target state="translated">Quantité</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 2244940641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resouce Name</source>
           <target state="translated">Nom ressouce</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resouce Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 518661146 - Field 3961767479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resource No.</source>
           <target state="translated">N° ressource</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resource No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other fees</source>
           <target state="translated" state-qualifier="mt-suggestion">Autres frais</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 3793109100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount HT</source>
           <target state="translated" state-qualifier="mt-suggestion">Montant HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Amount HT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 3607969333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount Include VAT</source>
           <target state="translated" state-qualifier="mt-suggestion">Montant TTC</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Amount Include VAT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="translated" state-qualifier="tm-suggestion">Désignation</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.</source>
           <target state="translated" state-qualifier="tm-suggestion">N° document</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Document No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <target state="translated" state-qualifier="tm-suggestion">Type de document</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Document Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3540737393 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Line No.</source>
           <target state="translated" state-qualifier="tm-suggestion">N° ligne</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DoutazTimeSheetAPI</source>
           <target state="translated">DoutazTimeSheetAPI</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Control 895206272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <target state="translated">Date</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No</source>
           <target state="translated">N° séquence</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control entryNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Control 560950674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job No.</source>
           <target state="translated">N° projet</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control jobNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Control 3355113493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity</source>
           <target state="translated">Quantité</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 940484421 - Control 464402589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resource No.</source>
           <target state="translated">N° ressource</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control resourceNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2906078451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CODIR Orders</source>
+          <target state="translated">CODIR Commandes</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Orders - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 932558947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Rate hours Line</source>
           <target state="translated">Doutaz Taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx doutaz Rate hours Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz TimeSheet Entries</source>
           <target state="translated">Doutaz feuilles de temps </target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Doutaz TimeSheet Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3032868852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Rate Hours</source>
           <target state="translated">Taux horaire par employée</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate Hours Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3032868852 - Control 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>lines</source>
           <target state="translated">Lignes</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate Hours Card - Control Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 252162034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Rate hours</source>
           <target state="translated">Taux horaire par employée</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate hours List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 252162034 - Action 3945118397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Rate Hourly</source>
           <target state="translated">Calculer taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Employee Rate hours List - Action CalculateRateHourly - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 120453160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Progress</source>
           <target state="translated">Avancement commande</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Order Progress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 161754790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Calc Rate Hours</source>
           <target state="translated">Doutaz Barème calcul taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutaz Calc Rate Hours - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1542739089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other Fees</source>
           <target state="translated" state-qualifier="mt-suggestion">Autres frais</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutaz Other Fees - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3794436072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Progress</source>
           <target state="translated">Avancement</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutazJobProgress - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 512116759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Calcul Rate hourly</source>
           <target state="translated">Calculer taux horaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Erpx Doutaz Calcul Rate hourly - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 736052156 - Control 4129381658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 736052156 - Control 4129381658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Statistic</source>
           <target state="translated" state-qualifier="tm-suggestion">Statistique</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutaz Sales Order - Control Statistic - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 823524015 - Action 1270575865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 823524015 - Action 1270575865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
           <source>Calculer statistique</source>
           <target state="translated">Calculer statistique</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Action CalcStat - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 823524015 - Control 2762407475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 823524015 - Control 2762407475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
           <source>End statistics of construction</source>
           <target state="translated">Statistique fin de chantier HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control Erpx End statistics of construction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 823524015 - Control 1278864808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 823524015 - Control 1278864808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
           <source>Honorary Statistics</source>
           <target state="translated">Statistiques honoraires HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control Erpx Honorary statistics - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 823524015 - Control 1409893931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 823524015 - Control 1409893931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
           <source>Fees HT</source>
           <target state="translated">Honoraires HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control FeesHT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 823524015 - Control 4057275556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 823524015 - Control 4057275556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
           <source>Hourly Fees</source>
           <target state="translated">Honoraires heure</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control HourlyFees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 1827821455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 2334731686 - Action 1000531422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>CODIR Orders</source>
+          <target state="translated">CODIR Commandes</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazSalesOrderList - Action CODIR_ORDER - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1827821455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>% Desired Benefit </source>
           <target state="translated">Bénéfice souhaité %</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Desired Benefit - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3070912590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3070912590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>% General Expenses Fees</source>
           <target state="translated">Frais généraux honoraires %</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % General Expenses Fees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3537699395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3537699395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Average Fees</source>
           <target state="translated">Honoraires moyen</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Average Fees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3631353781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3631353781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Benefit Forecast</source>
           <target state="translated">Prévisions bénéfice</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Benefit Forecast - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 1615944360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 1615944360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Desired Benefit HT</source>
           <target state="translated">Bénéfice souhaité HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Desired Benefit HT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Fee Amount HT</source>
           <target state="translated">Total montant honoraires HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fee Amount HT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 1886622184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 1886622184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Fees HT at Disposal</source>
           <target state="translated">Honoraires HT à disposition</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT at Disposal - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 4265920115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 4265920115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Fees HT Balance Available</source>
           <target state="translated">Honoraires HT solde à disposition</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT Balance Available - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3095746107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3095746107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Fees HT Used</source>
           <target state="translated">Honoraires HT utilisés</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Fees HT Used - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 592399528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 592399528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Hourly fees Balance at Disposal</source>
           <target state="translated">Honoraires heure solde à disposition</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hour fees Bal. Disposal - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 733269058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 733269058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Hourly Fees Available</source>
           <target state="translated">Honoraires heure à disposition</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hourly Fees Available - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3280305596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3280305596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Hourly Fees Used</source>
           <target state="translated">Honoraires heure utilisés</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Hourly Fees Used - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 3810144236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 3810144236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Erpx Last Progress</source>
           <target state="translated">Dernière progression</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Last Progress - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Overheads And Desired Profit HT</source>
           <target state="translated">Total frais généraux et bénéfice souhaité</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Overheads Desired Profit - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1336673499 - Field 4164245083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1336673499 - Field 4164245083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Risk and Chance HT</source>
           <target state="translated" state-qualifier="mt-suggestion">Risque et chance HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Risk and Chance HT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 1615944360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 1386667817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>% Invoiced</source>
+          <target state="translated">% facturation</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx % Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 2307412807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Total Balance HT</source>
+          <target state="translated">Solde</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Balance HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 1615944360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Desired Benefit HT</source>
           <target state="translated">Bénéfice souhaité HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Desired Benefit HT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 4143633615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 4143633615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>FA Statistics</source>
           <target state="translated">Statistique FA</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx FA Statistics - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 2704153059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Fee Amount HT</source>
           <target state="translated">Montant honoraires HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Fee Amount HT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 2416311409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 2416311409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>General Expenses Fees</source>
           <target state="translated">Frais généraux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx General Expenses Fees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 1763899733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 1763899733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Erpx Last Change</source>
           <target state="translated">Dernier changement</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Last Change - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 759263298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 759263298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Other Fees HT</source>
           <target state="translated">Autres frais HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Other Fees - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 374442480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Overheads And Desired Profit HT</source>
           <target state="translated">Frais généraux et bénéfice souhaité HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Overheads Desired Profit - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 637976691 - Field 3353313399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 637976691 - Field 3353313399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Total Amount HT</source>
           <target state="translated">Total montant HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Total Amount HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 637976691 - Field 2522403748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Total Amount Invoiced HT</source>
+          <target state="translated">Total Montant facturé HT</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazSalesHeader - Field Erpx Total Amount Invoiced HT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 1660943166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AC</source>
           <target state="translated">AC</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AC - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 3567861357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AC complementary</source>
           <target state="translated">AC complémentaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AC Comp - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 3588821598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AVS/AI/APG</source>
           <target state="translated">AVS/AI/APG</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue AVS/AI/APG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 2643242379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Caisse AF</source>
           <target state="translated">Caisse AF</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Caisse AF - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 4091854813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Frais de gestion</source>
           <target state="translated">Frais de gestion</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Frais de gestion - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 3614115762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General costs</source>
           <target state="translated">Frais généraux</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue General costs - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 585437394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IJM</source>
           <target state="translated">IJM</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue IJM - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 999870104 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LAA</source>
           <target state="translated">LAA</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LAA - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 2785452151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LAA complementary</source>
           <target state="translated">LAA complémentaire</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LAA Comp - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 3274066112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LPP</source>
           <target state="translated">LPP</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue LPP - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1721446973 - EnumValue 2408767110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nbre of Salary by year</source>
           <target state="translated">Nbre de salaire par année</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Erpx Calc Rate Hours - EnumValue Nbre of Salary by year - Property Caption</note>
         </trans-unit>
       </group>

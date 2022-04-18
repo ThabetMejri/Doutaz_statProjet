@@ -21,6 +21,7 @@ table 50706 "Erpx Doutaz Rate hours Header"
                 CalcRatehours: Record "Erpx Doutaz Calc. Rate hours";
                 AmountAVS: Decimal;
                 SwSAllocatedSalary: Record "SwS Allocated Salary";
+                Employee: Record Employee;
             begin
                 if SwSEmployee.Get("Employee No.") then begin
                     AmountAVS := 0;
@@ -72,8 +73,10 @@ table 50706 "Erpx Doutaz Rate hours Header"
                                 SwSAllocatedSalary.Reset();
                                 SwSAllocatedSalary.SetRange("Employee No.", "Employee No.");
                                 SwSAllocatedSalary.SetRange("Salary Type No.", '6240');
-                                if SwSAllocatedSalary.FindFirst() then
-                                    RatehoursLine.Validate("Base Amount", -SwSAllocatedSalary.Amount * 2);
+                                if SwSAllocatedSalary.FindFirst() then begin
+                                    if Employee.Get("Employee No.") and (Employee."Erpx % RPLP employee" <> 0) then
+                                        RatehoursLine.Validate("Base Amount", -(SwSAllocatedSalary.Amount * (1 + (100 - Employee."Erpx % RPLP employee") / Employee."Erpx % RPLP employee")));
+                                end;
                             end;
                             RatehoursLine.Insert(true);
                         until CalcRatehours.Next() = 0;

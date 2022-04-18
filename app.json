@@ -2,7 +2,7 @@
   "id": "11f3e886-142c-49ea-a2a6-cdababc6b4c8",
   "name": "Doutaz_StatProjet",
   "publisher": "Erpxperts SA",
-  "version": "21.190.0.11",
+  "version": "21.190.0.13",
   "brief": "Statistiques projet",
   "description": "Statistiques projet",
   "privacyStatement": "http://www.erpxperts.ch",
@@ -15,13 +15,13 @@
       "id": "fc0cf0fd-f77f-4d9a-af83-647a2b40945b",
       "name": "Doutaz_Spec",
       "publisher": "Erpxperts SA",
-      "version": "20.190.0.2"
+      "version": "20.0.0.0"
     },
     {
       "id": "ca3d5715-ac87-48ff-ace2-fc1605e50a69",
       "name": "SwissSalary 365",
       "publisher": "SwissSalary Ltd.",
-      "version": "1.5058.0.25"
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
@@ -35,7 +35,7 @@
     }
   ],
   "contextSensitiveHelpUrl": "https://Doutaz_StatProjet.com/help/",
-  "resourceExposurePolicy": {"allowDebugging": true,"includeSourceInSymbolFile": true},
+  "resourceExposurePolicy": {"allowDebugging": true,"includeSourceInSymbolFile": true,"allowDownloadingSource": false},
   "runtime": "8.0",
   "target": "Cloud"
 }

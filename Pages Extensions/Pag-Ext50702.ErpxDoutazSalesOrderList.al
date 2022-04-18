@@ -1,11 +1,28 @@
 pageextension 50702 "ErpxDoutazSalesOrderList" extends "Sales Order List"
 {
+    actions
+    {
+        addafter("Sales Reservation Avail.")
+        {
+            action(CODIR_ORDER)
+            {
+                Caption = 'CODIR Orders';
+                RunObject = page "Erpx CODIR Orders";
+                Promoted = true;
+                ApplicationArea = all;
+                PromotedCategory = "Report";
+                Image = Statistics1099;
+            }
+        }
+        modify("Sales Reservation Avail.")
+        {
+            Visible = false;
+        }
+    }
 
     trigger OnOpenPage()
     var
         salesHeader: Record "Sales Header";
-        DetailContrat: Record "Erpx Contract Detail";
-        DoutazJobProgress: Record "Erpx Doutaz Job Progress";
         job: Record Job;
     begin
         salesHeader.Reset();
@@ -17,7 +34,7 @@ pageextension 50702 "ErpxDoutazSalesOrderList" extends "Sales Order List"
         if salesHeader.FindFirst() then
             repeat
                 if job.Get(salesHeader."ErpX Job No.") then begin
-                    job.CalcSalesHeader(salesHeader."ErpX Job No.");
+                    salesHeader.CalculSalesHeader(salesHeader);
                     job.calcJob(salesHeader."ErpX Job No.");
                 end;
             until salesHeader.Next() = 0;
