@@ -223,41 +223,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz Rate hours Line - Field Rate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Doutaz TimeSheet Entries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Date - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Entry No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Entry No - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Job No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Job No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 2244940641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resouce Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resouce Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 518661146 - Field 3961767479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resource No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Erpx Doutaz TimeSheet Entries - Field Resource No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 3540737393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -293,50 +258,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Line No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 940484421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DoutazTimeSheetAPI</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 940484421 - Control 895206272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control date - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 940484421 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Entry No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control entryNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 940484421 - Control 560950674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Job No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control jobNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 940484421 - Control 3355113493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 940484421 - Control 464402589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resource No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Doutaz TimeSheet API - Control resourceNo - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2906078451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CODIR Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Orders - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2906078451 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Orders - Action Print - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 932558947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Rate hours Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Erpx doutaz Rate hours Line - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 518661146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Doutaz TimeSheet Entries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx Doutaz TimeSheet Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3032868852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Rate Hours</source>
@@ -377,6 +312,11 @@
           <source>Job Progress</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ErpxDoutazJobProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1929311007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Erpx CODIR Commandes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Erpx CODIR Commandes - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 512116759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Calcul Rate hourly</source>

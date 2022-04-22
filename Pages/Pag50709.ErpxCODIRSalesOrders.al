@@ -87,9 +87,33 @@ page 50709 "Erpx CODIR Orders"
                 }
             }
         }
+
+    }
+    actions
+    {
+        area(Reporting)
+        {
+            action(Print)
+            {
+                ApplicationArea = all;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                Image = Print;
+                Caption = 'Print';
+                PromotedOnly = true;
+                trigger OnAction()
+                var
+                    salesHeader: Record "Sales Header";
+                begin
+                    salesHeader.CopyFilters(Rec);
+                    Report.Run(Report::"Erpx CODIR Commandes", true, true, salesHeader);
+                end;
+            }
+        }
     }
     trigger OnOpenPage()
-    var      
+    var
         salesHeader: Record "Sales Header";
     begin
         salesHeader.Reset();
@@ -100,7 +124,7 @@ page 50709 "Erpx CODIR Orders"
         salesHeader.SetFilter("ErpX Job No.", '<>%1', '');
         if salesHeader.FindFirst() then
             repeat
-                salesHeader.CalculSalesHeader(salesHeader);                
+                salesHeader.CalculSalesHeader(salesHeader);
             until salesHeader.Next() = 0;
     end;
 
