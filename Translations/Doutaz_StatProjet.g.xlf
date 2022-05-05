@@ -258,6 +258,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ErpxDoutaz Other fees - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2799639349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CODIR Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2799639349 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Job - Action Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2799639349 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erpx CODIR Job - Action Print - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2906078451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CODIR Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -318,10 +333,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Erpx CODIR Commandes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2799639349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CODIR Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Erpx CODIR Job - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 512116759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Doutaz Calcul Rate hourly</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Erpx Doutaz Calcul Rate hourly - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 444214773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Erpx Update Job/Sales Order Statistques</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Erpx update Statistque - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3703917261 - Action 4174821829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 27174766">
+          <source>JOB CODIR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Erpx Doutaz Job List - Action CODIR - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 736052156 - Control 4129381658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Statistic</source>
@@ -358,15 +388,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazSalesOrderList - Action CODIR_ORDER - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 2910876002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>% Benefit Forecast</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Benefit Forecast - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1336673499 - Field 1827821455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>% Desired Benefit </source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Desired Benefit - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 3925606165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>% Fees HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Fees HT - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1336673499 - Field 3070912590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>% General Expenses Fees</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % General Expenses Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 738920121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>% Hourly</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx % Hourly - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1336673499 - Field 3537699395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Average Fees</source>

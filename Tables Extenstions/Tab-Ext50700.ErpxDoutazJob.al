@@ -27,7 +27,9 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         field(50704; "Erpx Fees HT Used"; Decimal)
         {
             Caption = 'Fees HT Used';
-            DataClassification = CustomerContent;
+            FieldClass = FlowField;
+            Editable = false;
+            CalcFormula = sum("Job Ledger Entry"."Total Cost (LCY)" where("Job No." = field("No."), "Entry Type" = filter(Usage), Type = filter(Resource)));
         }
         field(50705; "Erpx Fees HT Balance Available"; Decimal)
         {
@@ -47,7 +49,9 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         field(50708; "Erpx Hourly Fees Used"; Decimal)
         {
             Caption = 'Hourly Fees Used';
-            DataClassification = CustomerContent;
+            FieldClass = FlowField;
+            CalcFormula = sum("Job Ledger Entry".Quantity where("Job No." = field("No."), Type = filter(Resource), "Entry Type" = filter(Usage)));
+            Editable = false;
         }
         field(50709; "Erpx Desired Benefit HT"; Decimal)
         {
@@ -83,6 +87,23 @@ tableextension 50700 "ErpxDoutazJob" extends Job
             CalcFormula = sum("Sales Header"."Erpx Overheads Desired Profit" where("ErpX Job No." = field("No.")));
             FieldClass = FlowField;
             Editable = false;
+        }
+        field(50715; "Erpx % Hourly"; Decimal)
+        {
+            Caption = '% Hourly';
+            DataClassification = ToBeClassified;
+            Editable = false;
+        }
+        field(50716; "Erpx % Fees HT"; Decimal)
+        {
+            Caption = '% Fees HT';
+            DataClassification = ToBeClassified;
+            Editable = false;
+        }
+        field(50717; "Erpx % Benefit Forecast"; Decimal)
+        {
+            Caption = '% Benefit Forecast';
+            DataClassification = CustomerContent;
         }
 
     }
@@ -132,7 +153,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
     procedure calcJob(JobNo: Code[20])
     begin
         job.Get(JobNo);
-        job.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit");
+        job.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit", "Erpx Hourly Fees Used", "Erpx Fees HT Used");
         job."Erpx Fees HT at Disposal" := job."Erpx Fee Amount HT" - job."Erpx Overheads Desired Profit";
         job."Erpx Fees HT Balance Available" := job."Erpx Fees HT at Disposal" - job."Erpx Fees HT Used";
         if job."Erpx Average Fees" <> 0 then
@@ -144,6 +165,29 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         job."Erpx Risk and Chance HT" := job."Erpx Fees HT Balance Available";
         job."Erpx Benefit Forecast" := job."Erpx Desired Benefit HT" + job."Erpx Risk and Chance HT";
 
+        salesHeader.Reset();
+        salesHeader.SetRange("ErpX Job No.", job."No.");
+        //salesHeader.SetRange("Erpx FA Statistics", true);
+        salesHeader.SetFilter("Erpx Document Type", '%1|%2|%3|%4|%5|%6', salesHeader."Erpx Document Type"::"Contract Hours", salesHeader."Erpx Document Type"::"Contract Payment plan",
+                            salesHeader."Erpx Document Type"::"Hours amendment", salesHeader."Erpx Document Type"::"Payment plan amendment", salesHeader."Erpx Document Type"::"Progress contract",
+                            salesHeader."Erpx Document Type"::"Advancement amendment");
+        if salesHeader.FindFirst() then begin
+            salesHeader.CalcSums("Erpx Total Amount HT", salesHeader."Erpx Total Amount Invoiced HT", salesHeader."Erpx Amount received HT");
+            job."Erpx Total amount of orders HT" := salesHeader."Erpx Total Amount HT";
+            Job."Erpx Amount invoiced HT" := salesHeader."Erpx Total Amount Invoiced HT";
+            job."Erpx Amount received HT" := salesHeader."Erpx Amount received HT";
+            if job."Erpx Total amount of orders HT" <> 0 then
+                job."Erpx % invoiced" := round(Job."Erpx Amount invoiced HT" / job."Erpx Total amount of orders HT" * 100, 0.01, '>');
+        end;
+        job."Erpx % Hourly" := 0;
+        if job."Erpx Hourly Fees Available" <> 0 then
+            job."Erpx % Hourly" := round(job."Erpx Hourly Fees Used" / job."Erpx Hourly Fees Available" * 100, 0.01, '>');
+        job."Erpx % Fees HT" := 0;
+        if job."Erpx Fees HT at Disposal" <> 0 then
+            job."Erpx % Fees HT" := Round(job."Erpx Fees HT Used" / job."Erpx Fees HT at Disposal" * 100, 0.01, '>');
+        job."Erpx % Desired Benefit" := 0;
+        if job."Erpx Desired Benefit HT" <> 0 then
+            job."Erpx % Desired Benefit" := Round(job."Erpx Benefit Forecast" / job."Erpx Desired Benefit HT" * 100, 0.01, '>');
         job.Modify();
     end;
 

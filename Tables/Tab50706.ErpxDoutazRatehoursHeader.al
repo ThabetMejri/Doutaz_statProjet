@@ -166,7 +166,11 @@ table 50706 "Erpx Doutaz Rate hours Header"
                     "Net hourly rate without FG" := "Total annual employer charges" / "Annual number of hours"
                 else
                     "Net hourly rate without FG" := 0;
-                "Net hourly rate with FG" := "Net hourly rate without FG" * (1 + "General costs" / 100);
+                "Net hourly rate with FG" := Round("Net hourly rate without FG" * (1 + "General costs" / 100), 0.01, '>');
+                if Resource.Get(Rec."Employee No.") then begin
+                    Resource.Validate("Unit Cost", rec."Net hourly rate with FG");
+                    Resource.Modify();
+                end;
             end;
         }
 
@@ -213,4 +217,5 @@ table 50706 "Erpx Doutaz Rate hours Header"
 
     var
         RatehoursLine: Record "Erpx Doutaz Rate hours Line";
+        Resource: Record Resource;
 }

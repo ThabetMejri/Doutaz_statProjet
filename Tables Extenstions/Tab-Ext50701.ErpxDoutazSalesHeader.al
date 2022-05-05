@@ -99,13 +99,26 @@ tableextension 50701 "ErpxDoutazSalesHeader" extends "Sales Header"
         Linepaymentplan.SetRange("Erpx Document No.", SalesHeader."No.");
         if Linepaymentplan.FindFirst() then begin
             SalesHeader."Erpx Total Amount Invoiced HT" := 0;
+            salesheader."Erpx Amount received HT" := 0;
             repeat
-                Linepaymentplan.CalcFields("Invoice Amount");
+                Linepaymentplan.CalcFields("Invoice Amount", "Erpx Remaining Amount", "Amount Including VAT");
 
-                if Linepaymentplan."Erpx Reprise" then
-                    SalesHeader."Erpx Total Amount Invoiced HT" += Linepaymentplan."Reprise Prepayment Amount HT "
-                else
+                if Linepaymentplan."Erpx Reprise" then begin
+                    SalesHeader."Erpx Total Amount Invoiced HT" += Linepaymentplan."Reprise Prepayment Amount HT ";
+                    if Linepaymentplan."Erpx Remaining Amount" = 0 then
+                        salesheader."Erpx Amount received HT" += Linepaymentplan."Reprise Prepayment Amount HT "
+                    else begin
+                        salesheader."Erpx Amount received HT" += (Linepaymentplan."Reprise Amount Including VAT" - Linepaymentplan."Erpx Remaining Amount") / 1.077;
+                    end;
+                end
+                else begin
                     SalesHeader."Erpx Total Amount Invoiced HT" += Linepaymentplan."Invoice Amount";
+                    if Linepaymentplan."Erpx Remaining Amount" = 0 then
+                        salesheader."Erpx Amount received HT" += Linepaymentplan."Invoice Amount"
+                    else begin
+                        salesheader."Erpx Amount received HT" += (Linepaymentplan."Amount Including VAT" - Linepaymentplan."Erpx Remaining Amount") / 1.077;
+                    end;
+                end;
 
             until Linepaymentplan.Next() = 0;
             if SalesHeader."Erpx Total Amount HT" <> 0 then
@@ -212,5 +225,5 @@ tableextension 50701 "ErpxDoutazSalesHeader" extends "Sales Header"
                 OrderProgress.Modify();
             end;
         end;
-    end;    
+    end;
 }

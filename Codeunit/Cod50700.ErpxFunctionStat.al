@@ -183,7 +183,7 @@ codeunit 50700 "ErpxFunctionStat"
     begin
         if (Rec."Erpx % Desired Benefit" <> xRec."Erpx % Desired Benefit") then begin
             Rec.CalcSalesHeader(rec."No.");
-            Rec.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit");
+            Rec.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit", "Erpx Fees HT Used", "Erpx Hourly Fees Used");
             Rec."Erpx Fees HT at Disposal" := Rec."Erpx Fee Amount HT" - Rec."Erpx Overheads Desired Profit";
             Rec."Erpx Fees HT Balance Available" := Rec."Erpx Fees HT at Disposal" - Rec."Erpx Fees HT Used";
             if Rec."Erpx Average Fees" <> 0 then
@@ -204,7 +204,7 @@ codeunit 50700 "ErpxFunctionStat"
     begin
         if (Rec."Erpx Average Fees" <> xRec."Erpx Average Fees") then begin
             Rec.CalcSalesHeader(rec."No.");
-            Rec.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit");
+            Rec.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit", "Erpx Fees HT Used", "Erpx Hourly Fees Used");
             Rec."Erpx Fees HT at Disposal" := Rec."Erpx Fee Amount HT" - Rec."Erpx Overheads Desired Profit";
             Rec."Erpx Fees HT Balance Available" := Rec."Erpx Fees HT at Disposal" - Rec."Erpx Fees HT Used";
             if Rec."Erpx Average Fees" <> 0 then
