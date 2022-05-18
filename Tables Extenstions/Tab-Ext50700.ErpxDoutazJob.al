@@ -185,9 +185,9 @@ tableextension 50700 "ErpxDoutazJob" extends Job
         job."Erpx % Fees HT" := 0;
         if job."Erpx Fees HT at Disposal" <> 0 then
             job."Erpx % Fees HT" := Round(job."Erpx Fees HT Used" / job."Erpx Fees HT at Disposal" * 100, 0.01, '>');
-        job."Erpx % Desired Benefit" := 0;
-        if job."Erpx Desired Benefit HT" <> 0 then
-            job."Erpx % Desired Benefit" := Round(job."Erpx Benefit Forecast" / job."Erpx Desired Benefit HT" * 100, 0.01, '>');
+        //job."Erpx Desired Benefit HT" := 0;
+        //if job."Erpx Desired Benefit HT" <> 0 then
+         //   job."Erpx Desired Benefit" := Round(job."Erpx Benefit Forecast" / job."Erpx Desired Benefit HT" * 100, 0.01, '>');
         job.Modify();
     end;
 
