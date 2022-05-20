@@ -132,8 +132,10 @@ pageextension 50700 "ErpxDoutazJobCard" extends "Erpx Job Card"
     }
     trigger OnOpenPage()
     begin
-        rec.CalcSalesHeader(rec."No.");
-        Rec.calcJob(Rec."No.");
+        if Rec."No." <> '' then begin
+            rec.CalcSalesHeader(rec."No.");
+            Rec.calcJob(Rec."No.");
+        end;
     end;
 
 }
