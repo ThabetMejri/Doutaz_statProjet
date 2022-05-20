@@ -2,7 +2,7 @@
   "id": "11f3e886-142c-49ea-a2a6-cdababc6b4c8",
   "name": "Doutaz_StatProjet",
   "publisher": "Erpxperts SA",
-  "version": "21.190.0.21",
+  "version": "21.200.0.2",
   "brief": "Statistiques projet",
   "description": "Statistiques projet",
   "privacyStatement": "http://www.erpxperts.ch",
@@ -26,7 +26,7 @@
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "19.0.0.0",
+  "application": "20.0.0.0",
   "features": ["TranslationFile"],
   "idRanges": [
     {
@@ -36,6 +36,6 @@
   ],
   "contextSensitiveHelpUrl": "https://Doutaz_StatProjet.com/help/",
   "resourceExposurePolicy": {"allowDebugging": true,"includeSourceInSymbolFile": true,"allowDownloadingSource": false},
-  "runtime": "8.0",
+  "runtime": "9.0",
   "target": "Cloud"
 }
