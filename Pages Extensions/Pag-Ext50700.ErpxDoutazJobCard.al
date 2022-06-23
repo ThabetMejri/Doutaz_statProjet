@@ -87,6 +87,19 @@ pageextension 50700 "ErpxDoutazJobCard" extends "Erpx Job Card"
                     }
                 }
             }
+            group("Statistics Planning HT")
+            {
+                Caption = 'Statistics Planning HT';
+                field("Erpx Planned HT fees"; rec."Erpx Planned HT fees")
+                {
+                    ApplicationArea = all;
+                }
+
+                field("Erpx Planned hourly fees"; rec."Erpx Planned hourly fees")
+                {
+                    ApplicationArea = All;
+                }
+            }
             group("Erpx End statistics of construction")
             {
                 Caption = 'End statistics of construction';

@@ -105,6 +105,21 @@ tableextension 50700 "ErpxDoutazJob" extends Job
             Caption = '% Benefit Forecast';
             DataClassification = CustomerContent;
         }
+        field(50718; "Erpx Planned HT fees"; Decimal)
+        {
+            Caption = 'Planned HT fees';
+            FieldClass = FlowField;
+            CalcFormula = sum("Erpx Doutaz Planning Entries"."Total cost" where("Job No." = field("No.")));
+            Editable = false;
+        }
+        field(50719; "Erpx Planned hourly fees"; Decimal)
+        {
+            Caption = 'Planned hourly fees';
+            FieldClass = FlowField;
+            CalcFormula = sum("Erpx Doutaz Planning Entries".Quantity where("Job No." = field("No.")));
+            Editable = false;
+        }
+
 
     }
     procedure CalcSalesHeader(JobNo: Code[20])
@@ -153,7 +168,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
     procedure calcJob(JobNo: Code[20])
     begin
         job.Get(JobNo);
-        job.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit", "Erpx Hourly Fees Used", "Erpx Fees HT Used");
+        job.CalcFields("Erpx Fee Amount HT", "Erpx Overheads Desired Profit", "Erpx Hourly Fees Used", "Erpx Fees HT Used", "Erpx Planned hourly fees");
         job."Erpx Fees HT at Disposal" := job."Erpx Fee Amount HT" - job."Erpx Overheads Desired Profit";
         job."Erpx Fees HT Balance Available" := job."Erpx Fees HT at Disposal" - job."Erpx Fees HT Used";
         if job."Erpx Average Fees" <> 0 then
@@ -162,7 +177,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
             job."Erpx Hourly Fees Available" := 0;
         job."Erpx Hour fees Bal. Disposal" := job."Erpx Hourly Fees Available" - job."Erpx Hourly Fees Used";
         job."Erpx Desired Benefit HT" := job."Erpx Fee Amount HT" * job."Erpx % Desired Benefit" / 100;
-        job."Erpx Risk and Chance HT" := job."Erpx Fees HT Balance Available";
+        job."Erpx Risk and Chance HT" := job."Erpx Fees HT Balance Available" - job."Erpx Planned HT fees";
         job."Erpx Benefit Forecast" := job."Erpx Desired Benefit HT" + job."Erpx Risk and Chance HT";
 
         salesHeader.Reset();
@@ -187,7 +202,7 @@ tableextension 50700 "ErpxDoutazJob" extends Job
             job."Erpx % Fees HT" := Round(job."Erpx Fees HT Used" / job."Erpx Fees HT at Disposal" * 100, 0.01, '>');
         //job."Erpx Desired Benefit HT" := 0;
         //if job."Erpx Desired Benefit HT" <> 0 then
-         //   job."Erpx Desired Benefit" := Round(job."Erpx Benefit Forecast" / job."Erpx Desired Benefit HT" * 100, 0.01, '>');
+        //   job."Erpx Desired Benefit" := Round(job."Erpx Benefit Forecast" / job."Erpx Desired Benefit HT" * 100, 0.01, '>');
         job.Modify();
     end;
 

@@ -383,6 +383,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control HourlyFees - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 823524015 - Control 358085472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2545589736">
+          <source>Statistics Planning HT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ErpxDoutazJobCard - Control Statistics Planning HT - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2334731686 - Action 1000531422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
           <source>CODIR Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -472,6 +477,16 @@
           <source>Overheads And Desired Profit HT</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Overheads Desired Profit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1021567877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Planned hourly fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Planned hourly fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1336673499 - Field 1124760742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Planned HT fees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ErpxDoutazJob - Field Erpx Planned HT fees - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1336673499 - Field 4164245083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Risk and Chance HT</source>

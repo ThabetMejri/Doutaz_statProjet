@@ -2,7 +2,7 @@
   "id": "11f3e886-142c-49ea-a2a6-cdababc6b4c8",
   "name": "Doutaz_StatProjet",
   "publisher": "Erpxperts SA",
-  "version": "21.200.0.2",
+  "version": "21.200.0.3",
   "brief": "Statistiques projet",
   "description": "Statistiques projet",
   "privacyStatement": "http://www.erpxperts.ch",
@@ -22,6 +22,12 @@
       "name": "SwissSalary 365",
       "publisher": "SwissSalary Ltd.",
       "version": "1.0.0.0"
+    },
+    {
+      "id": "78e42d6c-aed1-4125-8f7b-170977ae3c8b",
+      "name": "Doutaz TimeSheet",
+      "publisher": "Erpxperts SA",
+      "version": "22.0.0.0"
     }
   ],
   "screenshots": [],
