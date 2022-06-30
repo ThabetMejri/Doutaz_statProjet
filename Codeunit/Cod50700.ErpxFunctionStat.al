@@ -15,19 +15,19 @@ codeunit 50700 "ErpxFunctionStat"
             JobProgress.Reset();
             JobProgress.SetRange("Job No.", Rec."ErpX Job No.");
             if JobProgress.FindFirst() then
-                repeat
-                    OrderProgress.Reset();
-                    OrderProgress.SetRange("Document Type", Rec."Document Type");
-                    OrderProgress.SetRange("No.", Rec."No.");
-                    OrderProgress.SetRange(Change, JobProgress.Change);
-                    if not OrderProgress.FindFirst() then begin
-                        OrderProgress.Init();
-                        OrderProgress.TransferFields(JobProgress);
-                        OrderProgress."Document Type" := Rec."Document Type";
-                        OrderProgress."No." := Rec."No.";
-                        OrderProgress.Insert();
-                    end;
-                until JobProgress.Next() = 0;
+                    repeat
+                        OrderProgress.Reset();
+                        OrderProgress.SetRange("Document Type", Rec."Document Type");
+                        OrderProgress.SetRange("No.", Rec."No.");
+                        OrderProgress.SetRange(Change, JobProgress.Change);
+                        if not OrderProgress.FindFirst() then begin
+                            OrderProgress.Init();
+                            OrderProgress.TransferFields(JobProgress);
+                            OrderProgress."Document Type" := Rec."Document Type";
+                            OrderProgress."No." := Rec."No.";
+                            OrderProgress.Insert();
+                        end;
+                    until JobProgress.Next() = 0;
         end;
     end;
 
@@ -86,20 +86,20 @@ codeunit 50700 "ErpxFunctionStat"
             JobProgress.Reset();
             JobProgress.SetRange("Job No.", SalesHeader."ErpX Job No.");
             if JobProgress.FindFirst() then
-                repeat
-                    OrderProgress.Reset();
-                    OrderProgress.SetRange("Document Type", SalesHeader."Document Type");
-                    OrderProgress.SetRange("No.", SalesHeader."No.");
-                    OrderProgress.SetRange(Change, JobProgress.Change);
-                    if not OrderProgress.FindFirst() then begin
-                        OrderProgress.Init();
-                        OrderProgress.TransferFields(JobProgress);
-                        OrderProgress."Document Type" := SalesHeader."Document Type";
-                        OrderProgress."No." := SalesHeader."No.";
-                        OrderProgress."Order Amount HT" := salesHeader."Erpx Total Amount HT";
-                        OrderProgress.Insert();
-                    end
-                until JobProgress.Next() = 0;
+                    repeat
+                        OrderProgress.Reset();
+                        OrderProgress.SetRange("Document Type", SalesHeader."Document Type");
+                        OrderProgress.SetRange("No.", SalesHeader."No.");
+                        OrderProgress.SetRange(Change, JobProgress.Change);
+                        if not OrderProgress.FindFirst() then begin
+                            OrderProgress.Init();
+                            OrderProgress.TransferFields(JobProgress);
+                            OrderProgress."Document Type" := SalesHeader."Document Type";
+                            OrderProgress."No." := SalesHeader."No.";
+                            OrderProgress."Order Amount HT" := salesHeader."Erpx Total Amount HT";
+                            OrderProgress.Insert();
+                        end
+                    until JobProgress.Next() = 0;
             if OrderProgress.FindLast() then begin
                 if OrderProgress.Change = 0 then begin
                     OrderProgress."Amount HT" := SalesHeader."Erpx Fee Amount HT" * OrderProgress."% Overhead Rate" / 100 * OrderProgress."% Job Progress" / 100;
@@ -241,6 +241,28 @@ codeunit 50700 "ErpxFunctionStat"
     begin
         UpdateRateHoursEmplyee(Rec);
         rec.Modify();
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Erpx Doutaz Planning Entries", 'OnAfterValidateEvent', 'Resource No.', true, true)]
+    local procedure ErpxOnAfterValidateEventPlanningEntriesResourceNo(var Rec: Record "Erpx Doutaz Planning Entries"; var xRec: Record "Erpx Doutaz Planning Entries")
+    var
+        RatehoursHeader: Record "Erpx Doutaz Rate hours Header";
+    begin
+        if RatehoursHeader.Get(rec."Resource No.") then begin
+            Rec."Unit cost" := RatehoursHeader."Net hourly rate with FG";            
+            Rec."Total cost" := Rec.Quantity * RatehoursHeader."Net hourly rate with FG";
+        end;
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Erpx Doutaz Planning Entries", 'OnAfterValidateEvent', 'Quantity', true, true)]
+    local procedure ErpxOnAfterValidateEventPlanningEntriesQuantity(var Rec: Record "Erpx Doutaz Planning Entries"; var xRec: Record "Erpx Doutaz Planning Entries")
+    var
+        RatehoursHeader: Record "Erpx Doutaz Rate hours Header";
+    begin
+        if RatehoursHeader.Get(rec."Resource No.") then begin
+            Rec."Unit cost" := RatehoursHeader."Net hourly rate with FG";
+            Rec."Total cost" := Rec.Quantity * RatehoursHeader."Net hourly rate with FG";
+        end;
     end;
 
 }

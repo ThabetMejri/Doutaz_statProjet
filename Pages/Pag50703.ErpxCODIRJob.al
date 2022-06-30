@@ -91,7 +91,29 @@ page 50703 "Erpx CODIR Job"
                 {
                     ApplicationArea = all;
                 }
-
+                field("Erpx Hourly Fees Available"; Rec."Erpx Hourly Fees Available")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                }
+                field("Erpx Hourly Fees Used"; Rec."Erpx Hourly Fees Used")
+                {
+                    ApplicationArea = All;
+                }
+                field("Erpx % Hourly"; Rec."Erpx % Hourly")
+                {
+                    ApplicationArea = All;
+                    StyleExpr = styleHour;
+                }
+                field("Erpx Hour fees Bal. Disposal"; Rec."Erpx Hour fees Bal. Disposal")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                }
+                field("Erpx Planned hourly fees"; Rec."Erpx Planned hourly fees")
+                {
+                    ApplicationArea = All;
+                }
                 field("Erpx Fees HT at Disposal"; rec."Erpx Fees HT at Disposal")
                 {
                     ApplicationArea = all;
@@ -111,37 +133,28 @@ page 50703 "Erpx CODIR Job"
                     ApplicationArea = All;
                     Editable = false;
                 }
-                field("Erpx Hourly Fees Available"; Rec."Erpx Hourly Fees Available")
+                field("Erpx Planned HT fees"; Rec."Erpx Planned HT fees")
                 {
                     ApplicationArea = All;
-                    Editable = false;
                 }
-                field("Erpx Hourly Fees Used"; Rec."Erpx Hourly Fees Used")
-                {
-                    ApplicationArea = All;
 
-                }
-                field("Erpx % Hourly"; Rec."Erpx % Hourly")
+                field("Erpx Risk and Chance HT"; Rec."Erpx Risk and Chance HT")
                 {
                     ApplicationArea = All;
-                    StyleExpr = styleHour;
                 }
-                field("Erpx Hour fees Bal. Disposal"; Rec."Erpx Hour fees Bal. Disposal")
-                {
-                    ApplicationArea = All;
-                    Editable = false;
-                }
+
                 field("Erpx Desired Benefit HT"; Rec."Erpx Desired Benefit HT")
                 {
                     ApplicationArea = All;
                     Editable = false;
                 }
-
-                field("Erpx % Benefit Forecast"; Rec."Erpx % Benefit Forecast")
+                field("Erpx Benefit Forecast"; Rec."Erpx Benefit Forecast")
                 {
                     ApplicationArea = All;
-                    StyleExpr = styleforcast;
+                    Editable = false;
                 }
+
+
             }
         }
 
@@ -178,10 +191,10 @@ page 50703 "Erpx CODIR Job"
         Job: Record Job;
     begin
         if Job.FindFirst() then
-            repeat
-                Job.CalcSalesHeader(Job."No.");
-                Job.calcJob(Job."No.");
-            until Job.Next() = 0;
+                repeat
+                    Job.CalcSalesHeader(Job."No.");
+                    Job.calcJob(Job."No.");
+                until Job.Next() = 0;
         rec.setrange("Erpx Job Status", 'PROJET')
     end;
 
