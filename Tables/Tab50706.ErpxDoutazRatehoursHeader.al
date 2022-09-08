@@ -75,7 +75,7 @@ table 50706 "Erpx Doutaz Rate hours Header"
                                 SwSAllocatedSalary.SetRange("Salary Type No.", '6240');
                                 if SwSAllocatedSalary.FindFirst() then begin
                                     if Employee.Get("Employee No.") and (Employee."Erpx % LPP employee" <> 0) then
-                                        RatehoursLine.Validate("Base Amount", -(SwSAllocatedSalary.Amount/(Employee."Erpx % LPP employee"/100)*(1-Employee."Erpx % LPP employee"/100))*Rec."Nb of Salary by year");
+                                        RatehoursLine.Validate("Base Amount", -(SwSAllocatedSalary.Amount/(Employee."Erpx % LPP employee"/100)*(1-Employee."Erpx % LPP employee"/100))*12);
                                 end;
                             end;
                             RatehoursLine.Insert(true);
